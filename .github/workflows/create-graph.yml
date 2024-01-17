@@ -21,11 +21,11 @@ jobs:
           
       - name: Install dependencies
         run: |
-          python3 -m pip3 install --upgrade pip
-          pip3 install pandas
-          pip3 install matplotlib
-          pip3 install os
-          pip3 install numpy
+          python3 -m pip install --upgrade pip
+          pip install pandas
+          pip install matplotlib
+          pip install os
+          pip install numpy
 
       - name: Execute script
         run: |
@@ -36,6 +36,6 @@ jobs:
           ls graphs
 
       #need to update the graph on push
-      - name: 
+      
 
       
