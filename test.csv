@@ -71,4 +71,5 @@ Number,Title,State,Created At,Updated At,Closed At,Merged At,Author Login
 91,"test code on main with real issue",MERGED,"2024-01-17T19:12:04Z","2024-01-17T19:15:27Z",2024-01-17T19:15:26Z,2024-01-17T19:15:26Z,"gnmeyer"
 92,"add validation",MERGED,"2024-01-17T20:47:48Z","2024-01-17T20:50:48Z",2024-01-17T20:50:48Z,2024-01-17T20:50:48Z,"gnmeyer"
 93,"Update repo with csv final",MERGED,"2024-01-17T20:52:46Z","2024-01-17T20:56:27Z",2024-01-17T20:54:16Z,2024-01-17T20:54:16Z,"SloaneTribble"
-96,"update to run on issue open and edit",OPEN,"2024-01-17T22:16:53Z","2024-01-17T22:16:53Z",null,null,"gnmeyer"
+96,"update to run on issue open and edit",MERGED,"2024-01-17T22:16:53Z","2024-01-17T22:19:31Z",2024-01-17T22:19:28Z,2024-01-17T22:19:28Z,"gnmeyer"
+97,"moved user input to arg 4 in action",OPEN,"2024-01-17T22:33:33Z","2024-01-17T22:33:33Z",null,null,"gnmeyer"
