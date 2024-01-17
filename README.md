@@ -1,1 +1,1 @@
-Testing PAT
+Hello from actions!
