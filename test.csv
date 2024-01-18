@@ -79,4 +79,5 @@ Number,Title,State,Created At,Updated At,Closed At,Merged At,Author Login
 101,"set read permissions",MERGED,"2024-01-17T23:34:58Z","2024-01-17T23:35:20Z",2024-01-17T23:35:20Z,2024-01-17T23:35:20Z,"myles-coleman"
 102,"set read permissions",MERGED,"2024-01-17T23:43:36Z","2024-01-17T23:43:59Z",2024-01-17T23:43:58Z,2024-01-17T23:43:58Z,"gnmeyer"
 103,"Revert "set read permissions"",MERGED,"2024-01-17T23:46:19Z","2024-01-17T23:47:13Z",2024-01-17T23:47:13Z,2024-01-17T23:47:13Z,"gnmeyer"
-106,"random",OPEN,"2024-01-18T17:27:18Z","2024-01-18T17:27:18Z",null,null,"gnmeyer"
+106,"random",CLOSED,"2024-01-18T17:27:18Z","2024-01-18T17:40:09Z",2024-01-18T17:40:09Z,null,"gnmeyer"
+107,"Create disposable file",OPEN,"2024-01-18T17:39:57Z","2024-01-18T17:39:57Z",null,null,"SloaneTribble"
