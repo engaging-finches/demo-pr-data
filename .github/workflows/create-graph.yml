@@ -1,5 +1,9 @@
 name: Display Graphs in README
-on: [workflow_dispatch, push]
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   Create_Graph:
@@ -24,18 +28,20 @@ jobs:
           python3 -m pip install --upgrade pip
           pip install pandas
           pip install matplotlib
-          pip install os-sys
           pip install numpy
 
-      - name: Execute script
+      - name: Execute script #outputs graph in graphs directory
         run: |
           python3 main.py
       
       - name: Debug
         run: |
           ls graphs
-
-      #need to update the graph on push
       
-
-      
+      - name: Commit and Push Changes
+      run: |
+        git config --global user.name "Myles Coleman"
+        git config --global user.email "mylescoleman05@gmail.com"
+        git add graphs/pr_duration_plot.png
+        git commit -m "Add generated graph"
+        git push origin graph-setup
