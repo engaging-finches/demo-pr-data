@@ -29,7 +29,7 @@ for i in range(len(created_at)):
 valid_time_diffs = [td for td in time_diffs if not np.isnan(td)] #filters out nan values
 timestamps_every_10_minutes = np.arange(0, max(valid_time_diffs), 10) #generates y values in 10 minute intervals
 
-#fig, ax = plt.subplots(figsize=(12, 8))
+fig, ax = plt.subplots(figsize=(12, 8))
 
 plt.plot(pr_number.iloc[1:], time_diffs, marker='o', linestyle='-', color='b')
 plt.yticks(timestamps_every_10_minutes)
