@@ -42,7 +42,7 @@ jobs:
         run: |
           git config --global user.name "Myles Coleman"
           git config --global user.email "mylescoleman05@gmail.com"
-          git pull
+          git pull origin graph-setup
           git add graphs/pr_duration_plot.png
           git commit -m "Add generated graph"
           
