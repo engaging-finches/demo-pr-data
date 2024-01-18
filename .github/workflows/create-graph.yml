@@ -39,9 +39,9 @@ jobs:
           ls graphs
       
       - name: Commit and Push Changes
-      run: |
-        git config --global user.name "Myles Coleman"
-        git config --global user.email "mylescoleman05@gmail.com"
-        git add graphs/pr_duration_plot.png
-        git commit -m "Add generated graph"
-        git push --force https://engaging-finches:${{ secrets.PAT }}@github.com/engaging-finches/demo-pr-data.git origin graph-setup
+        run: |
+          git config --global user.name "Myles Coleman"
+          git config --global user.email "mylescoleman05@gmail.com"
+          git add graphs/pr_duration_plot.png
+          git commit -m "Add generated graph"
+          git push origin graph-setup
