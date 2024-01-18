@@ -29,6 +29,8 @@ for i in range(len(created_at)):
 valid_time_diffs = [td for td in time_diffs if not np.isnan(td)] #filters out nan values
 timestamps_every_10_minutes = np.arange(0, max(valid_time_diffs), 10) #generates y values in 10 minute intervals
 
+fig, ax = plt.subplots(figsize=(10, 6))
+
 plt.plot(pr_number.iloc[1:], time_diffs, marker='o', linestyle='-', color='b')
 plt.yticks(timestamps_every_10_minutes)
 plt.xlabel('PR Number')
@@ -37,6 +39,7 @@ plt.title('PR Duration in Repository')
 plt.grid(True)
 plt.ylim(top=300)
 plt.ylim(bottom=0)
+plt.show()
 
 # Save the plot to the 'graphs' directory
 output_file_path = os.path.join(output_folder, 'pr_duration_plot.png')
