@@ -18,6 +18,12 @@ jobs:
           ref: ${{ github.ref }} #gets the current branch
           token: ${{ secrets.ORG_EF_TOKEN }}
 
+      - name: debug
+        run: |
+          echo "Current Branch: ${{ github.ref }}"
+          echo "Current Repo: ${{ github.repository }}"
+          
+
       - name: setup python
         uses: actions/setup-python@v2
         with:
