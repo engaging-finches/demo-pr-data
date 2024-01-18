@@ -44,4 +44,4 @@ jobs:
           git config --global user.email "mylescoleman05@gmail.com"
           git add graphs/pr_duration_plot.png
           git commit -m "Add generated graph"
-          git push origin graph-setup
+          git push https://engaging-finches@github.com/engaging-finches/demo-pr-data.git origin graph-setup
