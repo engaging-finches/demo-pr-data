@@ -15,14 +15,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ${{ github.repository }} #gets the current repo
-          ref: ${{ github.ref }} #gets the current branch
+          ref: graph-setup #gets the current branch
           token: ${{ secrets.ORG_EF_TOKEN }}
 
       - name: debug
         run: |
           echo "Current Branch: ${{ github.ref }}"
           echo "Current Repo: ${{ github.repository }}"
-          
+
 
       - name: setup python
         uses: actions/setup-python@v2
@@ -54,4 +54,4 @@ jobs:
           git commit -m "Add generated graph"
           git pull origin graph-setup
           
-          git push origin HEAD:graph-setup
+          git push origin graph-setup
