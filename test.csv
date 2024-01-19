@@ -86,4 +86,5 @@ Number,Title,State,Created At,Updated At,Closed At,Merged At,Author Login
 112,"Create demo file",OPEN,"2024-01-18T22:37:52Z","2024-01-18T22:37:52Z",null,null,"SloaneTribble"
 113,"Create demo file",OPEN,"2024-01-18T23:07:47Z","2024-01-18T23:20:09Z",null,null,"SloaneTribble"
 114,"demo",CLOSED,"2024-01-19T00:26:40Z","2024-01-19T15:31:43Z",2024-01-19T15:31:43Z,null,"SloaneTribble"
-115,"demo",OPEN,"2024-01-19T17:41:12Z","2024-01-19T17:41:12Z",null,null,"SloaneTribble"
+115,"demo",CLOSED,"2024-01-19T17:41:12Z","2024-01-19T17:47:03Z",2024-01-19T17:47:03Z,null,"SloaneTribble"
+117,"Create CodeQL workflow file",OPEN,"2024-01-19T18:10:25Z","2024-01-19T18:10:25Z",null,null,"SloaneTribble"
